@@ -23,7 +23,7 @@ If you go ahead and set up the Amazon Web Services Command Line tools
 you will have botocore installed and will have your AWS credentials configured.  Since AWS CLI uses the botocore
 credential verification routine you should be good to go on accessing AWS from these examples.
 
-Each example requires you to fill in some values (for example the S3 bucket nam) for these
+Each example requires you to fill in some values (for example the S3 bucket name) for these
 examples to work.
 
 Contributing
@@ -33,7 +33,9 @@ Pull requests and help with more examples are welcome.
 Reference URLs
 ==============
 *[github botocore project](http://github.github.com/github-flavored-markdown/sample_content.html)*
+
 *[Amazon CLI Tools](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html )*
+
 *For SES to work there are important steps in the
 *[SES Documentation](http://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html) that you must follow.*
 
