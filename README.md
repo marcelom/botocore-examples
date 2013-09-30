@@ -33,9 +33,8 @@ Pull requests and help with more examples are welcome.
 Reference URLs
 ==============
 - *[github botocore project](http://github.github.com/github-flavored-markdown/sample_content.html)*
-- *[Amazon CLI Tools](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html )*
-- *For SES to work there are important steps in the
-- *[SES Documentation](http://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html) that you must follow.*
+- *[Amazon CLI Tools](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html)*
+- *For SES to work there are important steps in the [SES Documentation](http://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html) that you must follow.*
 
 License
 =======
