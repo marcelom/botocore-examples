@@ -11,7 +11,7 @@ def main():
     region      = 'us-east-1' #change this to your region
 
     destination = {'ToAddresses': ['someone@somedomain.com']} # to test ses validate an email address and use that one
-    source      = 'someone@somedomain.com' # this is the form address
+    source      = 'someone@somedomain.com' # this is the from address
     msgbody     = {'Subject': {'Data': 'this is a subject'}, 'Body': {'Text': {'Data': 'This is the body' + "\nand more lines"}}}
 
     print "setting up the session and sending the email"
