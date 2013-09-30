@@ -6,11 +6,11 @@ def main():
     print
     print "Putting a file in s3 - initial parameters"
 
-    bucket     = 'yourbucketname'
-    key        = 'xyzzy'
-    filename   ='testfile.txt' # assume sto be in this program's working folder
+    bucket     = 'yourbucketname' # change this to your bucket name
+    key        = 'xyzzy' # a subfolder under the bucket
+    filename   ='testfile.txt' # the file we will put into S3
     region     = 'us-east-1' # change this to your region
-    acl        = 'public-read' # we are going to set the aco to public-read so we can access the file via a url
+    acl        = 'public-read' # we are going to set the ACL to public-read so we can access the file via a url
 
     print
     print '         region: ' + region
