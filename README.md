@@ -6,7 +6,7 @@ eventually replace boto as the preferred Python AWS interface library.
 
 As of September 29, 2013 the botocore documentation is lacking examples for calling most of the various AWS services.
 
-Therefore I have put together these examples so others can jump start their usage of botocore.
+I'm hoping these examples help you get started with botocore.
 
 Assumptions
 ===========
@@ -14,8 +14,7 @@ Assumptions
 - You have an AWS account and IAM credentials with the proper privileges configured on your system
 - You know something about AWS
 
-These examples assume you know what you are doing with AWS services.  These examples are NOT intended as a way to get familiar with
-AWS Services.
+These examples assume you know what you are doing with AWS services.  
 
 Getting Started
 ================
@@ -44,4 +43,6 @@ See the LICENSE.txt file in this project.
 Contact Info
 ============
 eric [at] alphaea [dot] com
+epalmer [at] richmond [dot] edu
+
 
