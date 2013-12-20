@@ -30,7 +30,7 @@ def main():
 
     http_response, response_data = send.call(endpoint, queue_url = queue_url, message_body = message_body)
 
-    # if you use endMessageBatch operation you can get a 200 status code returned even if one or more messages could not be sent
+    # if you use sendMessageBatch operation you can get a 200 status code returned even if one or more messages could not be sent
     # see the aws sqs documentation
 
     if not http_response.status_code == 200:
